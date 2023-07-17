@@ -174,10 +174,90 @@ button:hover
 @media (max-width: 768px) 
 {
 
-
+    .logo
+    {
+        font-size: 2rem;
+    }
+    .navLinks
+    {
+        display: none;
+    }
+    .logo
+    {
+        font-size: 4.1rem;
+    }
+    .links
+    {
+        margin-top: 15px;
+        
+    }
+    .links a
+    {
+        margin-right: -5px;
+    }
+    .wrapper
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 40% 60%;
+        column-gap: 2rem;
+    }
+    .cols0
+    {
+        position: ;
+        text-align: center;
+    }
+    .cols0 h1
+    {
+        font-size: 4.5em;
+    }
+    .btns
+    {
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 60S%;
+    transform: translate(-50%, -50%);  
+    }
+    .btns
+    {
+        margin: 40px 5px;
+    }
+    .imgbox
+    {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+    border: none;
+    top: 61px;
+    margin-left: 0px;
+    }
+    .imgbox img 
+    {
+        position: relative;
+        height: 100%;
+        width: 125%;
+        top: -36px;
+        right: -38%;
+        border-radius: 2%;
+        z-index: 1111;
+    }
+    .circle::after
+    {
+        content: "";
+        width: 100vw;
+        height: 107vw;
+        border-radius: 50%;
+        background-color: #7f00ff;
+        position: absolute;
+        bottom: -240px;
+        right: 0px;
+    
+    }
 }
   /* Medium */
-  @media (max-width: 992px) 
+  @media (min-width: 992px) 
 {
     .imgbox
     {
@@ -204,7 +284,7 @@ button:hover
 {
 
 }
-@media (max-width: 1199px)
+@media (min-width: 1199px)
 {
     .imgbox
     {
